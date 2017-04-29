@@ -1,0 +1,29 @@
+#conteneur{
+	border: 2px solid #444;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	align-items:center;
+	height:350px;
+	width:80%;
+	
+}
+.element{
+	width:150px;
+	height:100px;
+/*	margin:auto;*/
+}
+.element:nth-child(1){
+	background-color: orange;
+	
+}
+.element:nth-child(2){
+	background-color: blue;
+	align-self:flex-end;
+	
+}
+.element:nth-child(3){
+	background-color: #ad6;
+	
+}
